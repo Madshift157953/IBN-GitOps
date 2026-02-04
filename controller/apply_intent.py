@@ -1,7 +1,7 @@
 import yaml
 import subprocess
 
-with open("intent/intent.yaml") as f:
+with open("/root/ibn-gitops/IBN-GitOps/Intent/intent.yaml") as f:
     intent = yaml.safe_load(f)
 
 allowed_ports = intent["security"]["allowed_ports"]
